@@ -37,7 +37,7 @@
                     android:adjustViewBounds="false"
                     android:contentDescription="@string/gold_image"
                     android:cropToPadding="false"
-                    android:scaleType="fitXY"
+                    android:scaleType="centerCrop"
                     android:src="@drawable/gold_cover" />
 
                 <ProgressBar

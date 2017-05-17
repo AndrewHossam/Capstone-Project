@@ -1,11 +1,16 @@
 package andrewhossam.se3reldollar;
 
+import android.accounts.Account;
+import android.accounts.AccountManager;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
+
+import java.util.LinkedList;
+import java.util.List;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -14,10 +19,16 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         final String PREFS_NAME = "FirstLoad";
+        AccountManager manager = AccountManager.get(this);
+        Account[] accounts = manager.getAccountsByType("com.google");
+        List<String> username = new LinkedList<String>();
 
+        for (Account account : accounts) {
+            username.add(account.name);
+        }
         SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
         if (settings.getBoolean("my_first_time", true)) {
-            Toast.makeText(this, R.string.first_time_toast, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Hello " + username.get(0) + R.string.first_time_toast, Toast.LENGTH_LONG).show();
             settings.edit().putBoolean("my_first_time", false).apply();
 
         }
