@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="banks_long_name">
+        <item>البنك العربي الأفريقي الدولي</item>
+        <item>بنك بيريوس</item>
+        <item>مصرف أبو ظبي الإسلامي</item>
+        <item>بنك البركة</item>
+        <item>بنك الإسكندرية</item>
+        <item>بنك بلوم مصر</item>
+        <item>بنك مصر</item>
+        <item>كريدى اجريكول</item>
+        <item>بنك القاهرة</item>
+        <item>البنك المركزى المصرى</item>
+        <item>CIB البنك التجارى الدولي</item>
+        <item>البنك المصري لتنمية الصادرات</item>
+        <item>البنك المصرى الخليجى</item>
+        <item>بنك فيصل الاسلامي المصري</item>
+        <item>بنك التعمير والاسكان</item>
+        <item>بنك مصر إيران للتنمية</item>
+        <item>البنك الأهلي المصري</item>
+        <item>البنك الأهلى اليونانى بمصر</item>
+        <item>بنك التنمية والإئتمان الزراعي</item>
+        <item>SAIB</item>
+        <item>بنك قناة السويس</item>
+        <item>البنك المتحد</item>
+        <item>HSBC</item>
+        <item>بنك الاستثمار العربي</item>
+        <item>البنك الاهلي المتحد</item>
+        <item>بنك المشرق</item>
+        <item>بنك الإمارات دبي الوطني</item>
+        <item>QNB</item>
+        <item>البنك العربي</item>
+    </string-array>
+    <string-array name="currencies_name">
+        <item>جنيه مصري</item>
+        <item>درهم إماراتي</item>
+        <item>دولار أسترالي</item>
+        <item>دينار بحريني</item>
+        <item>دولار كندي</item>
+        <item>فرنك سويسري</item>
+        <item>يوان صيني</item>
+        <item>كرونة دنماركية</item>
+        <item>يورو</item>
+        <item>جنيه إسترليني</item>
+        <item>دينار أردني</item>
+        <item>100 ين ياباني</item>
+        <item>دينار كويتي</item>
+        <item>كرونة نروجية</item>
+        <item>ريال عماني</item>
+        <item>ريال قطري</item>
+        <item>ريال سعودي</item>
+        <item>كرونة سويدية</item>
+        <item>بات تايلاندي</item>
+        <item>دولار أمريكي</item>
+
+    </string-array>
+
+</resources>

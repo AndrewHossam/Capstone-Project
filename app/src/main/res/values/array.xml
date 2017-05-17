@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="banks_short_name">
+        <item>aab</item>
+        <item>abk</item>
+        <item>adib</item>
+        <item>alb</item>
+        <item>alex</item>
+        <item>blom</item>
+        <item>bm</item>
+        <item>cae</item>
+        <item>cairo</item>
+        <item>cbe</item>
+        <item>cib</item>
+        <item>ebe</item>
+        <item>egb</item>
+        <item>fsl</item>
+        <item>hdb</item>
+        <item>midb</item>
+        <item>nbe</item>
+        <item>nbg</item>
+        <item>pbdac</item>
+        <item>saib</item>
+        <item>scb</item>
+        <item>ubeg</item>
+        <item>hsbc</item>
+        <item>aibk</item>
+        <item>aub</item>
+        <item>mash</item>
+        <item>ndb</item>
+        <item>qnb</item>
+        <item>arab</item>
+    </string-array>
+
+    <string-array name="banks_long_name">
+        <item>Arab African International Bank</item>
+        <item>Piraeus Bank</item>
+        <item>Abu Dhabi Islamic Bank</item>
+        <item>Al Baraka Bank</item>
+        <item>Bank of Alexandria</item>
+        <item>BLOM Bank Egypt</item>
+        <item>Banque Misr</item>
+        <item>Crédit Agricole</item>
+        <item>Banque du Caire</item>
+        <item>Central Bank of Egypt</item>
+        <item>Commercial International Bank</item>
+        <item>Export Development Bank of Egypt</item>
+        <item>Egyptian Gulf Bank</item>
+        <item>FAISAL Islamic Bank</item>
+        <item>Housing &amp; Development Bank</item>
+        <item>Misr Iran Development Bank</item>
+        <item>National Bank of Egypt</item>
+        <item>National Bank of Greece</item>
+        <item>Agricultural Bank of Egypt</item>
+        <item>SAIB</item>
+        <item>Suez Canal Bank</item>
+        <item>The United Bank</item>
+        <item>HSBC</item>
+        <item>Arab Investment Bank</item>
+        <item>Ahli United Bank</item>
+        <item>Mashreq Bank</item>
+        <item>Emirates NBD</item>
+        <item>QNB</item>
+        <item>Arab Bank</item>
+    </string-array>
+    <string-array name="currencies_symbol">
+        <item>EGP</item>
+        <item>AED</item>
+        <item>AUD</item>
+        <item>BHD</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CNY</item>
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>JOD</item>
+        <item>JPY</item>
+        <item>KWD</item>
+        <item>NOK</item>
+        <item>OMR</item>
+        <item>QAR</item>
+        <item>SAR</item>
+        <item>SEK</item>
+        <item>THB</item>
+        <item>USD</item>
+    </string-array>
+    <string-array name="currencies_name">
+        <item>Egyptian Pound</item>
+        <item>UAE Dirham</item>
+        <item>Australian Dollar</item>
+        <item>Bahraini Dinar</item>
+        <item>Canadian Dollar</item>
+        <item>Swiss Franc</item>
+        <item>Chinese Yuan</item>
+        <item>Danish Krone</item>
+        <item>Euro</item>
+        <item>British Pound</item>
+        <item>Jordanian Dinar</item>
+        <item>100 Japanese Yen</item>
+        <item>Kuwaiti Dinar</item>
+        <item>Norwegian Krone</item>
+        <item>Omani Rial</item>
+        <item>Qatari Rial</item>
+        <item>Saudi Riyal</item>
+        <item>Swedish Krona</item>
+        <item>Thai Baht</item>
+        <item>US Dollar</item>
+    </string-array>
+
+</resources>

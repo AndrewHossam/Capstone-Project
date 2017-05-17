@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Se3r El Dollar</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-1892746526899830/7326737553</string>
+    <string name="app_ad_id" translatable="false">ca-app-pub-1892746526899830~3036138758</string>
+    <string name="title_activity_settings" translatable="false">Settings</string>
+    <string name="dollar_price_in">Dollar price in</string>
+    <string name="seconds">seconds</string>
+    <string name="website" translatable="false">se3reldollar.com</string>
+    <string name="nothing" translatable="false">nothing</string>
+    <string name="avg_selling">Avg selling price</string>
+    <string name="banks">Banks</string>
+    <string name="buy">buy</string>
+    <string name="carat_18">Carat 18</string>
+    <string name="carat_21">Carat 21</string>
+    <string name="carat_24">Carat 24</string>
+    <string name="currencies">Currencies</string>
+    <string name="days">days</string>
+    <string name="few_days">days</string>
+    <string name="few_hours">hours</string>
+    <string name="few_minutes">miniuts</string>
+    <string name="first_time_toast">The app may take long time in the first time</string>
+    <string name="for_buy">for buying</string>
+    <string name="for_selling">for selling</string>
+    <string name="golden_pound">Golden pound</string>
+    <string name="highest_buying_price">Highest buying price</string>
+    <string name="InternetError">Internet connection error</string>
+    <string name="hours">hours</string>
+    <string name="lowest_selling_price">Lowest selling price</string>
+    <string name="minite">minute</string>
+    <string name="minutes">minutes</string>
+    <string name="one_day">A day</string>
+    <string name="one_hour">An hour</string>
+    <string name="other_sources">Other sourses</string>
+    <string name="sell">sell</string>
+    <string name="the_currancy">The currency</string>
+    <string name="the_gold">The gold</string>
+    <string name="two_days">2 days</string>
+    <string name="two_hours">2 hours</string>
+    <string name="two_minits">ثواني</string>
+    <string name="avg_selling_price">Avg selling price :</string>
+    <string name="buying">buying</string>
+    <string name="carat_18_gold">18 Carat gold</string>
+    <string name="dollar_buying_price">Dollar buying price</string>
+    <string name="dollar_selling_price">Dollar selling price</string>
+    <string name="from">from</string>
+    <string name="last_update">last update:</string>
+    <string name="price_in_egp">Price in egyption pound</string>
+    <string name="select_the_currency">Select the currency</string>
+    <string name="selling">selling</string>
+    <string name="the_bank">The bank</string>
+    <string name="the_carat">The carat</string>
+    <string name="the_source">The source :</string>
+    <string name="avg_buying_price">Avg buying price</string>
+    <string name="verified_from_bank_website">Verified from bank website</string>
+    <string name="currency_image">Currencies image</string>
+    <string name="gold_image">Gold image</string>
+    <string name="splash_screen">Splash screen</string>
+    <string name="bank_logo">Bank logo</string>
+    <string name="compare_prices">Compare prices</string>
+    <string name="gold_prices">Gold prices</string>
+    <string name="share">Share</string>
+    <string name="summary">Summary</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>
