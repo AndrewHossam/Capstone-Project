@@ -66,8 +66,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_menu_black_24dp);
-        //tranastion
-
 
         MobileAds.initialize(this, getString(R.string.app_ad_id));
         ((AdView) findViewById(R.id.adView)).loadAd(new AdRequest.Builder().build());

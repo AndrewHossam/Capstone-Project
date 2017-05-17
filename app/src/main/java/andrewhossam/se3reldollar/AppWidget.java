@@ -29,7 +29,7 @@ public class AppWidget extends AppWidgetProvider {
         views.setTextViewText(R.id.usd_min_selling_bank, " " + summary.getString("usd_max_buying", EMPTY) + " ");
         views.setTextViewText(R.id.usd_buying_avg, " " + summary.getString("usd_max_buying", EMPTY) + " ");
         views.setTextViewText(R.id.usd_selling_avg, " " + summary.getString("usd_max_buying", EMPTY) + " ");
-        views.setTextViewText(R.id.lastUpdateMain, " " + summary.getString("usd_max_buying", EMPTY) + " ");
+        views.setTextViewText(R.id.lastUpdateMain, " " + summary.getString("lastUpdateMain", EMPTY) + " ");
         views.setTextViewText(R.id.g18_value, " " + summary.getString("g18_value", EMPTY) + " ");
 
         // Instruct the widget manager to update the widget
