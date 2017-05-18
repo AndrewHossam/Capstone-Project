@@ -38,7 +38,6 @@
     <string name="two_hours">2 hours</string>
     <string name="two_minits">ثواني</string>
     <string name="avg_selling_price">Avg selling price :</string>
-    <string name="buying">buying</string>
     <string name="carat_18_gold">18 Carat gold</string>
     <string name="dollar_buying_price">Dollar buying price</string>
     <string name="dollar_selling_price">Dollar selling price</string>
@@ -46,7 +45,6 @@
     <string name="last_update">last update:</string>
     <string name="price_in_egp">Price in egyption pound</string>
     <string name="select_the_currency">Select the currency</string>
-    <string name="selling">selling</string>
     <string name="the_bank">The bank</string>
     <string name="the_carat">The carat</string>
     <string name="the_source">The source :</string>

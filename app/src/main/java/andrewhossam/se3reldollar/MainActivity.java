@@ -21,10 +21,6 @@ import android.widget.Toast;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -55,7 +51,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference myRef = database.getReference();
     Bundle bundle = null;
-    private FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,16 +69,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             //    startActivity(new Intent(android.provider.Settings.ACTION_WIFI_SETTINGS));
             //   finish();
         }
-        mAuth = FirebaseAuth.getInstance();
 
-        if (mAuth.getCurrentUser() == null) {
-            mAuth.signInAnonymously().addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                @Override
-                public void onComplete(@NonNull Task<AuthResult> task) {
-                    //  Toast.makeText(mContext, "aaaaaaaaaaaaaaaaa", Toast.LENGTH_SHORT).show();
-                }
-            });
-        }
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view_main);
         navigationView.setNavigationItemSelectedListener(this);
     }
