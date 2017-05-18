@@ -1,11 +1,14 @@
 apply plugin: 'com.android.application'
 android {
+    lintOptions {
+        disable 'MissingTranslation'
+    }
     signingConfigs {
         config {
-            keyAlias 'Andrew'
-            keyPassword 'andrew32'
-            storeFile file('C:/Users/Andrew/Google Drive/keystore.jks')
-            storePassword 'andrew32'
+            keyAlias 'key'
+            keyPassword 'andrew'
+            storeFile file('C:/Users/Andrew/Documents/WorkSpace/Android Studio/Capstone Project/key.jks')
+            storePassword 'andrew'
         }
     }
     compileSdkVersion 25
@@ -21,8 +24,12 @@ android {
     }
     buildTypes {
         release {
+            signingConfig signingConfigs.config
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            signingConfig signingConfigs.config
         }
     }
     productFlavors {
@@ -40,13 +47,9 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.2'
     //FIREBASE
     compile 'com.google.firebase:firebase-core:10.0.1'
-    compile 'com.google.firebase:firebase-auth:10.0.1'
     compile 'com.google.firebase:firebase-database:10.0.1'
     compile 'com.google.firebase:firebase-ads:10.0.1'
-    compile 'com.google.firebase:firebase-invites:10.0.1'
-
     compile 'com.google.android.gms:play-services-auth:10.0.1'
-
 }
 
 apply plugin: 'com.google.gms.google-services'

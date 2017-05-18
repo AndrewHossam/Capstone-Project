@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 ((TextView) findViewById(R.id.usd_min_selling_bank)).setText(" " + summary.getString("usd_max_buying", EMPTY) + " ");
                 ((TextView) findViewById(R.id.usd_buying_avg)).setText(" " + summary.getString("usd_max_buying", EMPTY) + " ");
                 ((TextView) findViewById(R.id.usd_selling_avg)).setText(" " + summary.getString("usd_max_buying", EMPTY) + " ");
-                ((TextView) findViewById(lastUpdateMain)).setText(" " + summary.getString("usd_max_buying", EMPTY) + " ");
+                ((TextView) findViewById(lastUpdateMain)).setText(" " + summary.getString("lastUpdateMain", EMPTY) + " ");
                 ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBarMain);
                 progressBar.setVisibility(View.GONE);
             }

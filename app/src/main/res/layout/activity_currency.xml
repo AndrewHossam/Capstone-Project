@@ -62,30 +62,24 @@
                     ads:adSize="BANNER"
                     ads:adUnitId="@string/banner_ad_unit_id" />
 
-                <Spinner
-                    android:id="@+id/select_currency"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/adViewTop"
-                    android:layout_toLeftOf="@+id/select_currency_textview"
-                    android:layout_toStartOf="@+id/select_currency_textview" />
-
                 <TextView
                     android:id="@+id/select_currency_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/adViewTop"
-                    android:layout_marginLeft="80dp"
-                    android:layout_marginStart="80dp"
-                    android:layout_marginTop="16dp"
                     android:text="@string/select_the_currency" />
 
+                <Spinner
+                    android:id="@+id/select_currency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/select_currency_textview" />
 
                 <LinearLayout
                     android:id="@+id/heads"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/select_currency_textview"
+                    android:layout_below="@+id/select_currency"
                     android:layout_margin="16dp"
                     android:clipToPadding="false"
                     android:elevation="6dp"
