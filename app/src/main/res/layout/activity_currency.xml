@@ -152,6 +152,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:clickable="true"
+            android:contentDescription="@string/share"
             android:src="@android:drawable/ic_menu_share"
             android:visibility="gone"
             app:fabSize="normal"

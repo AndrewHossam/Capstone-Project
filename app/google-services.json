@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "697628560667",
+    "firebase_url": "https://se3r-eldollar.firebaseio.com",
+    "project_id": "se3r-eldollar",
+    "storage_bucket": "se3r-eldollar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697628560667:android:b1232d0c4ec9e325",
+        "android_client_info": {
+          "package_name": "andrewhossam.se3reldollar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697628560667-oqv8reosj69q6ji74la7eveaahqgcp6h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "andrewhossam.se3reldollar",
+            "certificate_hash": "b0fc5be7f677f0cb542945c82b4fcd6a29c3ea20"
+          }
+        },
+        {
+          "client_id": "697628560667-o43readjpbb1ned4cso78ve7sehb1455.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeYoR-EElKKFEBjONv9dLWfhNiUYvlQZ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697628560667-o43readjpbb1ned4cso78ve7sehb1455.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

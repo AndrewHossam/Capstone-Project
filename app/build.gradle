@@ -5,7 +5,7 @@ android {
     }
     signingConfigs {
         config {
-            keyAlias 'key'
+            keyAlias 'key0'
             keyPassword 'andrew'
             storeFile file("$rootDir/key.jks")
             storePassword 'andrew'
