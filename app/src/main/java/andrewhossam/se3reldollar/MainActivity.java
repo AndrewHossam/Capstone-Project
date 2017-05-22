@@ -51,18 +51,22 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference myRef = database.getReference();
     Bundle bundle = null;
+    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         context = this;
+        MobileAds.initialize(getApplicationContext(), getResources().getString(R.string.app_ad_id));
+        mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_menu_black_24dp);
 
-        MobileAds.initialize(this, getString(R.string.app_ad_id));
         ((AdView) findViewById(R.id.adView)).loadAd(new AdRequest.Builder().build());
         if (!isConnectedToInternet(MainActivity.this)) {
             Toast.makeText(MainActivity.this, R.string.InternetError, Toast.LENGTH_LONG).show();
@@ -95,11 +99,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 editor.apply();
 
                 ((TextView) findViewById(R.id.usd_max_buying)).setText(" " + summary.getString("usd_max_buying", EMPTY) + " ");
-                ((TextView) findViewById(R.id.usd_max_buying_bank)).setText(" " + summary.getString("usd_max_buying", EMPTY) + " ");
-                ((TextView) findViewById(R.id.usd_min_selling)).setText(" " + summary.getString("usd_max_buying", EMPTY) + " ");
-                ((TextView) findViewById(R.id.usd_min_selling_bank)).setText(" " + summary.getString("usd_max_buying", EMPTY) + " ");
-                ((TextView) findViewById(R.id.usd_buying_avg)).setText(" " + summary.getString("usd_max_buying", EMPTY) + " ");
-                ((TextView) findViewById(R.id.usd_selling_avg)).setText(" " + summary.getString("usd_max_buying", EMPTY) + " ");
+                ((TextView) findViewById(R.id.usd_max_buying_bank)).setText(" " + summary.getString("usd_max_buying_bank", EMPTY) + " ");
+                ((TextView) findViewById(R.id.usd_min_selling)).setText(" " + summary.getString("usd_min_selling", EMPTY) + " ");
+                ((TextView) findViewById(R.id.usd_min_selling_bank)).setText(" " + summary.getString("usd_min_selling_bank", EMPTY) + " ");
+                ((TextView) findViewById(R.id.usd_buying_avg)).setText(" " + summary.getString("usd_buying_avg", EMPTY) + " ");
+                ((TextView) findViewById(R.id.usd_selling_avg)).setText(" " + summary.getString("usd_selling_avg", EMPTY) + " ");
                 ((TextView) findViewById(lastUpdateMain)).setText(" " + summary.getString("lastUpdateMain", EMPTY) + " ");
                 ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBarMain);
                 progressBar.setVisibility(View.GONE);
